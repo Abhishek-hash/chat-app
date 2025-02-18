@@ -1,5 +1,7 @@
 
-const socket = io('ws://localhost:3500')
+//const socket = io('ws://localhost:3500')
+//const socket = io();
+const socket = io('https://chat-app-room-fea28ysm1-abhishek-mauryas-projects-ab60fc3e.vercel.app/');
 
 const msgInput = document.querySelector('#message')
 const nameInput = document.querySelector('#name')
